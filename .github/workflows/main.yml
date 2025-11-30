@@ -20,9 +20,8 @@ jobs:
          - name: 'Testing Printing'
            run: echo hello 
 
-         - uses: actions/checkout@3
+         - uses: actions/checkout@v3
 
          - name: 'listing files'
            run: ls -a
 
-           

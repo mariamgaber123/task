@@ -24,4 +24,6 @@ jobs:
 
          - name: 'listing files'
            run: ls -a
-
+           
+         - name: 'login secrets'
+           run: docker login --username ${{secrets.DOCKER_USERNAME}} --password ${{secrets.DOCKER_TOKEN}}

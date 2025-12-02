@@ -14,10 +14,10 @@ jobs:
       
          
       steps:
-         - name: 'Testing Github action'
+         - name: 'Testing Github'
            run: pwd
 
-         - name: 'Testing Printing'
+         - name: 'Testing'
            run: echo hello 
 
          - uses: actions/checkout@v3

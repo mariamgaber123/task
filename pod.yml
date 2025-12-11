@@ -13,3 +13,9 @@ spec:
         limits:
           memory: "512Mi"
           cpu: "1"
+    - image: mariamgaber123/mariam_gaber_2023040247
+      name: c2
+      resources:
+        limits:
+          memory: "512Mi"
+          cpu: "1"   

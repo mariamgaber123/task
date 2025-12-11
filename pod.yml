@@ -1,13 +1,15 @@
 apiVersion: v1
 kind: Pod
 metadata:
-
+  name: pod1
+  labels:
+    lable-name: task1
 
 spec:
   containers:
     - image: mariamgaber123/mariam_gaber_2023040247
       name: c1
-      resouces:
+      resources:
         limits:
           memory: "512Mi"
           cpu: "1"

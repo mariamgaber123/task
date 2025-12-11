@@ -1,4 +1,3 @@
-def your_name():
-   name=input("Enter your name ")
+def your_name(name):
    print(f"Hello {name}, welcome from inside Docker!")
-your_name()
+your_name("Mariam")

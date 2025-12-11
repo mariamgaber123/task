@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY index.py .
 
-CMD python index.py
+CMD ["python", "index.py"]

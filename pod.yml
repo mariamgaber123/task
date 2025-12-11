@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+
+
+spec:
+  containers:
+    - image: mariamgaber123/mariam_gaber_2023040247
+      name: c1
+      resouces:
+        limits:
+          memory: "512Mi"
+          cpu: "1"

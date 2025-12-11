@@ -1,13 +1,7 @@
-FROM alpine
+FROM python:3.12
 
 WORKDIR /app
 
-COPY index.js .
+COPY index.py .
 
-RUN apk add --update nodejs
-
-RUN apk add --update npm
-
-RUN npm install express
-
-CMD ["node", "index.js"]
+CMD python index.py

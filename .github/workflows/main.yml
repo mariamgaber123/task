@@ -14,9 +14,7 @@ jobs:
       
          
       steps:
-         - name: 'Testing Github'
-           run: pwd
-
+        
          - name: 'Testing'
            run: echo hello 
 
